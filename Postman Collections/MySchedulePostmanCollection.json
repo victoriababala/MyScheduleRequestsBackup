@@ -135,7 +135,7 @@
 							"pm.test(\"Response time is less than 500ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
 							"});\r",
-							"pm.test(\"Response have a header Last-Modified \", function () {\r",
+							"pm.test(\"Content-Type is present \", function () {\r",
 							"    pm.response.to.have.header(\"Last-Modified\");\r",
 							"});\r",
 							""
